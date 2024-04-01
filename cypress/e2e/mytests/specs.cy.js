@@ -1,7 +1,7 @@
 // Feature: Landing Page Navigation
 describe('Landing Page Navigation', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/')
+      cy.visit('http://localhost:8080/') 
     })
   
     it('Displays the landing page correctly', () => {
